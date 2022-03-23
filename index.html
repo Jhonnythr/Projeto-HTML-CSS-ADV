@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Layout projeto</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- CSS DE ICONES -->
+    <!-- ICONES NO FONT AWESOME COLOCAR NA TAG i-->
+
+    <!-- FONTE DO GOOGLE -->
+    <link rel="stylesheet" href="./assets/css/estilogoogle.css">
+
+    <!--BOOTSTRAP (USEI O 5)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS VENDOR -->
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+    <!-- MEU css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--  Header  -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto"><a href="index.html">Serra do Norte</a></h1>
+            <!-- NAVBAR -->
+            <nav id="navbar" class="navbar order-last order-lg-0">
+
+                <!-- CLASSE SCROLLTO = AO CLICLAR NA GUIA DESEJADA NO NAVBAR O SITE ME LEVA PRA PARTE DA PAGINA QUE EU QUERO AO LIGAR COM O HREF + O ID -->
+
+                <ul class="celular">
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#sct-video">Sobre</a></li>
+                    <li><a class="nav-link scrollto" href="#servicos">Serviços</a></li>
+                    <li><a class="nav-link scrollto" href="#quartos">Quartos</a></li>
+                    <li><a class="nav-link scrollto" href="#contato">Contato</a></li>
+                </ul>
+
+            </nav>
+            <!-- FIM NAVBAR -->
+            <a href="#reserva" class="facaReserva-btn scrollto"><span class="d-none d-md-inline"> Faça a sua</span>
+                Reserva</a>
+        </div>
+    </header>
+    <!-- FIM Header -->
+
+    <!--  TEXTO NO MEIO DA IMAGEM  -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <h1>Bem vindo ao Serra do Norte</h1>
+            <h2>O melhor hotel fazenda da região</h2>
+            <a href="#reserva" class="btn-reserva scrollto">Reservar</a>
+        </div>
+    </section>
+    <!--  TEXTO NO MEIO DA IMAGEM  -->
+
+
+    <main id="main">
+
+
+        <!--  QUADRADOS EM BAIXO DA IMAGEM  -->
+        <section class="quad-peq">
+            <div class="container">
+
+                <div class="row">
+                    <!--QUADRADO GRANDE-->
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="conteudo ">
+                            <h3>Nosso Hotel </h3>
+                            <p>
+                                Bem vindos ao site do hotel Serra do Norte! Nosso hotel fica localizado na melhor região
+                                de São Lourenço MG, está localizado a 2km do centro histórico da cidade e a 3 km de São
+                                Lourenço velho!<br> Entre em contato conosco
+                                e faça sua reserva agora mesmo!
+                            </p>
+                            <div class="text-center">
+                                <a href="#reserva" class="btn-conteudo">Faça a sua reserva! <i
+                                        class="bx bx-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- QUADRADO GRANDE FIM -->
+                    <!-- QUADRADO MENOR DIV -->
+                    <div class="col-lg-8 d-flex align-items-stretch">
+                        <!-- QUADRADO MENOR DIV 2 -->
+                        <div class="icon-boxes d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <!-- QUADRADO MENOR 1 -->
+                                <div class="col-xl-4 d-flex align-items-stretch ">
+                                    <div class="icon-box quad-peq mt-4 mt-xl-0">
+                                        <i class="fas fa-home"></i>
+                                        <h4>Comodidades</h4>
+                                        <p>Com o conforto dos nossos chales você se sentirá em casa! Nossos chales são
+                                            equipados com ar condicionado, ventilador de teto, TV LED, frigobar,
+                                            interfone e muito mais! </p>
+                                    </div>
+                                </div>
+                                <!-- QUADRADO MENOR 1 FIM -->
+                                <!-- QUADRADO MENOR 2 -->
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 quad-peq mt-xl-0">
+                                        <i class="fas fa-running"></i>
+                                        <h4>Lazer</h4>
+                                        <p>Nosso hotel possui inumeras areas de lazer para a toda familia! Dentre elas
+                                            são piscinas, quadras esportivas, sala de jogos e sala de video! </p>
+                                    </div>
+                                </div>
+                                <!-- QUADRADO MENOR 2 FIM-->
+                                <!-- QUADRADO MENOR 3 -->
+                                <div class="col-xl-4 d-flex align-items-stretch">
+                                    <div class="icon-box mt-4 quad-peq mt-xl-0">
+                                        <i class="fas fa-tractor"></i>
+                                        <h4>Mini Fazenda</h4>
+                                        <p>Possuimos um espaço com aproximandamente 10.000m² de área aberta. A nossa
+                                            equipe foi especialmente treinada com as medidas sanitárias oficiais, e a
+                                            mini fazenda está 100% preparada para receber você e a sua família!</p>
+                                    </div>
+                                </div>
+                                <!-- QUADRADO MENOR 3 FIM -->
+                            </div>
+                        </div>
+                        <!-- QUADRADO MENOR DIV 2-->
+                    </div>
+                    <!--QUADRADO MENOR DIV -->
+                </div>
+
+            </div>
+        </section>
+        <!--  QUADRADOS EM BAIXO DA IMAGEM  -->
+
+
+
+
+
+        <!--  PRIMEIRO DIV DE MENU  -->
+        <section id="sct-video" class="sct-video">
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <!--VIDEO DA DIV -->
+                    <div
+                        class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                        <a href="./assets/img/neblina.mp4" class="glightbox play-btn mb-4"></a>
+                    </div>
+                    <!--TEXTO DEPOIS DO VIDEO-->
+                    <div
+                        class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch  justify-content-center py-5 px-lg-5">
+                        <h3 class="sction-video-cel">Você não irá se arrepender!</h3>
+                        <p id="pvideo">Fazendo a reserva no nosso hotel, você ganhará descontos nos melhores passeios
+                            turisticos da cidade!
+                        </p>
+                        <!--ICONE 1-->
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-train"></i></div>
+                            <h4 class="title"><a href="">Trem das Águas</a></h4>
+                            <p class="description">Faça um maravilhoso passeio de trem pela cidade!</p>
+                        </div>
+                        <!--ICONE 2-->
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-place-of-worship"></i></div>
+                            <h4 class="title"><a href="">Parque das Águas</a></h4>
+                            <p class="description">Faça uma visita a principal atração turística da cidade.O parque
+                                possui 430 mil metros quadrados de área, com nove fontes de águas minerais, cada uma com
+                                suas propriedades terapêuticas e medicinais em particular.</p>
+                        </div>
+                        <!--ICONE 3-->
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-coffee"></i></div>
+                            <h4 class="title"><a href=""> Rota do Café Especial</a></h4>
+                            <p class="description">Visita monitorada à Fazenda Centenária que há mais de dez anos é
+                                reconhecida por produzir "O Melhor Café do Mundo".</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--  PRIMEIRO DIV DE MENU  -->
+
+
+
+        <!--  SERVIÇOS  -->
+        <section id="servicos" class="servicos">
+            <div class="container">
+
+                <div class="titulo">
+                    <h2>Serviços</h2>
+                    <p>Nosso hotel disponibiliza uma grande variedades de serviços para você aproveitar ainda mais as
+                        suas ferias!
+                    </p>
+                </div>
+
+                <div class="row">
+                    <!--SERVIÇOS QUAD 1-->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-bed"></i></div>
+                            <h4><a href="">Camareira </a></h4>
+                            <p>Nossos funcionarios podem arrumar o seu chale sempre que você precisar.</p>
+                        </div>
+                    </div>
+                    <!--SERVIÇOS QUAD 1 FIM-->
+                    <!--SERVIÇOS QUAD 2-->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-coffee"></i></div>
+                            <h4><a href="">Café da manhã</a></h4>
+                            <p>O nosso café da manhã é liberado para todos os hospedes entre os horários de 7h e 10h da
+                                manhã!</p>
+                        </div>
+                    </div>
+                    <!--SERVIÇOS QUAD 2 FIM-->
+                    <!--SERVIÇOS QUAD 3 -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-utensils"></i></div>
+                            <h4><a href="">Almoço</a></h4>
+                            <p>O almoço é servido para todos os hospedes entre os horários de 11h e 13h da tarde!</p>
+                        </div>
+                    </div>
+                    <!--SERVIÇOS QUAD 3 FIM-->
+
+
+
+
+                </div>
+                <div class="row">
+                    <!--SERVIÇOS QUAD 4 -->
+                    <div class="  mt-4 ">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fas fa-cocktail"></i></div>
+                            <h4><a href="">Bar</a></h4>
+                            <p>Possuimos um bar aberto com preços acessiveis a todos os clientes!</p>
+                        </div>
+                    </div>
+                    <!--SERVIÇOS QUAD 4 FIM-->
+
+                </div>
+
+            </div>
+        </section>
+        <!--  SERVIÇOS  -->
+
+
+
+        <!--  TIPOS DE QUARTOS OU AREAS DO HOTEL  -->
+        <section id="quartos" class="quartos">
+            <div class="container">
+
+                <div class="titulo">
+                    <h2>Areas do Hotel</h2>
+                    <p>Veja em detalhes algumas de nossas areas disponiveis no nosso Hotel! Para mais detalhes, entre em
+                        contato conosco pelo formulario abaixo ou pelo nosso telefone! </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                        <ul class="nav nav-tabs flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Parquinho</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Spa & Sauna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Mini Fazenda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Chalé</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Quartos Individuais</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 mt-4 mt-lg-0">
+                        <div class="tab-content">
+                            <div class="tab-pane active show" id="tab-1">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Diversão para as crianças</h3>
+                                        <p class="fst-italic">Diversão para os filhos com localização estratégica! </p>
+                                        <p>A localização do nosso parquinho foi pensada estrategicamente para que os
+                                            pais possam se divertir enquanto olham os seus filhos brincarem no
+                                            parquinho!</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="assets/img/quartos-1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-2">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Venha relaxar</h3>
+                                        <p class="fst-italic">Ficou cansado depois de um longo dia de diversão?</p>
+                                        <p>Venha conhecer a nossa area de descanso! Nossa sauna está quentinha e só está
+                                            esperando por você!
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="assets/img/quartos-2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-3">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Venha conhecer nossa fazendinha!</h3>
+                                        <p class="fst-italic">Venha brincar com os nossos animais</p>
+                                        <p>Você já teve contato com cavalos, porcos e outros animais de fazenda? Venha
+                                            visitar nossa mini fazenda! Você pode montar a cavalo e alimentar todos os
+                                            nossos animais!</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="assets/img/quartos-3.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-4">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Nossos famosos chalés!</h3>
+                                        <p class="fst-italic">Parece uma casinha de brinquedo </p>
+                                        <p>Nossos chalés são feitos para que a sua familia fique muito mais confortavel!
+                                            Nossos chalés são equipados com ar condicionado, tvs, camas ultra
+                                            confortaveis e muito mais!</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="assets/img/quartos-4.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-5">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Quartos individuais com o maximo de conforto</h3>
+                                        <p class="fst-italic">Nossos quartos foram feitos para familias pequenas.</p>
+                                        <p>Para você que gosta de passear e quase não para no hotel ou que traga poucos
+                                            acompanhante, nossos quartos são tão confortaveis quanto os nossos chalés!
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="assets/img/quartos-5.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--  TIPOS DE QUARTOS OU AREAS DO HOTEL  -->
+
+
+
+
+        <!--  GALERIA DE FOTOS  -->
+        <section id="gallery" class="gallery">
+
+
+
+
+            <div class="container">
+
+                <div class="titulo">
+                    <h2>Galeria</h2>
+                    <p>Abaixo você pode ver algumas fotos que foram tiradas no nosso espaço por alguns de nossos
+                        hospedes!.</p>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row no-gutters">
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-1.jpg" class="galelry-lightbox">
+                                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-2.jpg" class="galelry-lightbox">
+                                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-3.jpg" class="galelry-lightbox">
+                                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-4.jpg" class="galelry-lightbox">
+                                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-5.jpg" class="galelry-lightbox">
+                                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-6.jpg" class="galelry-lightbox">
+                                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-7.jpg" class="galelry-lightbox">
+                                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-8.jpg" class="galelry-lightbox">
+                                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- FIM GALERIA -->
+
+
+        
+
+        <!--  FAÇA SUA RESERVA  -->
+        <section id="reserva" class="sreserva section-bg">
+            <div class="container">
+
+                <div class="titulo">
+                    <h2>Faça a sua reserva!</h2>
+                    <p>Ficou com vontade de se hospedar no nosso hotel? Deixe seus dados abaixo que nós entraremos em
+                        contato com você para marcamos uma data!
+                    </p>
+                </div>
+
+                <form method="get" class="" onsubmit="cadastrar()">
+
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <input type="text" name="nome" class="formularioReserva" id="nome"
+                                placeholder="Digite seu Nome" required>
+                        </div>
+
+                        <div class="col-md-4 form-group mt-3 mt-md-0">
+                            <input type="text" class="formularioReserva" name="email" id="email"
+                                placeholder="Digite seu Email" required>
+                        </div>
+
+                        <div class="col-md-4 form-group mt-3 mt-md-0">
+                            <input type="text" class="formularioReserva" name="telefone" id="telefone"
+                                placeholder="Informe seu Telefone" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4 form-group mt-3">
+                            <label>Data de entrada</label>
+                            <input type="date" name="dataEntrada" class="formularioReserva" id="dataEntrada">
+                        </div>
+
+                        <div class="col-md-4 form-group mt-3">
+                            <label>Data de saida</label>
+                            <input type="date" name="dataSaida" class="formularioReserva" id="dataSaida">
+                        </div>
+
+                        <div class="col-md-4 form-group mt-3">
+                            <label></label>
+                            <select name="qtdHosp" id="qtdHosp" class="formularioReserva">
+                                <option value="">Quantidade de Hospedes</option>
+                                <option value="1~3">1~3</option>
+                                <option value="3~5">3~5</option>
+                                <option value="5+">5+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <textarea class="formularioReserva" name="mensagem" rows="5"
+                            placeholder="Necessidades especiais? (opcional)"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="botaoCadastro" onclick="mostrarValor()">Enviar Reserva</button>
+                    </div>
+
+                </form>
+
+                <!-- Modal -->
+                <div class="modal fade" id="areaFuncionario" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="areaFuncionario_Titulo">Área do Funcionário</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body container">
+
+                                <div>
+                                    <label class="areaFunc_label">Nome do Cliente</label>
+                                    <p class="areaFunc_p" id="mostrarNome"></p>
+
+                                    <label class="areaFunc_label">Telefone</label>
+                                    <p class="areaFunc_p" id="mostrarTelefone"></p>
+
+                                    <label class="areaFunc_label">Email do Cliente</label>
+                                    <p class="areaFunc_p" id="mostrarEmail"></p>
+
+                                    <label class="areaFunc_label">Quantidade de Pessoas</label>
+                                    <p class="areaFunc_p" id="mostrarQtd"></p>
+
+                                    <label class="areaFunc_label">Data de Entrada</label>
+                                    <p class="areaFunc_p" id="mostrarEntrada"></p>
+
+                                    <label class="areaFunc_label">Data de Saida</label>
+                                    <p class="areaFunc_p" id="mostrarSaida"></p>
+
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class=" btn btn-primary" onclick="mostrarConteudo()">Mostrar
+                                    Agendamentos</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-danger" onclick="limparStorage()">Limpar
+                                    Dados</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!--FIM DO MODAL (COLOQUEI AQUI POIS FICA EM BAIXO DA PARTE DE RESERVA)-->
+        </section>
+        <!--  FAÇA SUA RESERVA  -->
+
+
+        <!--  Contato Section  -->
+        <section id="contato" class="contato">
+            <div class="container">
+
+                <div class="titulo">
+                    <h2>Contato</h2>
+                    <p>Ficou com alguma dúvida? Entre em contato conosco pelo formulario abaixo ou se preferir venha
+                        pessoalmente!
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <iframe style="border:0; width: 100%; height: 350px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.6135217347996!2d-43.35116620724669!3d-23.001235105921534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda15630b58e7%3A0xe9ba5773a51a3cbe!2sStep%20Computer%20Academy!5e0!3m2!1sen!2sbr!4v1635708625620!5m2!1sen!2sbr"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="container">
+                <div class="row mt-5">
+
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="endereco">
+                                <i class="fas fa-globe-americas"></i>
+                                <h4>Localização:</h4>
+                                <p>Barra Square Shopping Center, Avenida das Américas 3.555, Bloco 1, Sala 301 - Barra
+                                    da Tijuca, Rio de Janeiro, RJ</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="far fa-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>jonathanasilva@outlook.com.br</p>
+                            </div>
+
+                            <div class="telefone">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>Telefone:</h4>
+                                <p>(21) 96476-0718</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="nomeMensagem"
+                                        placeholder="Seu nome" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="emailMensagem"
+                                        placeholder="Seu email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="assuntoMensagem"
+                                    placeholder="Assunto" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem"
+                                    required></textarea>
+                            </div>
+
+                            <div class="text-center"><button class="botaoCadastro" type="submit">Enviar</button></div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- Fim Contato Section -->
+
+
+
+
+    </main>
+    <!-- FIM MAIN -->
+
+    <!-- Footer -->
+    <footer id="footer">
+
+
+
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Jonathan Silva</span></strong> Projeto HTML/CSS Advanced
+                </div>
+
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a href="https://www.facebook.com/jonathan.almeidasilva.9" class="facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/jhonnythr/" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jonathan-silva-b87b47183/" class="linkedin"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a data-bs-toggle="modal" data-bs-target="#areaFuncionario" class="linkedin"><i
+                        class="fas fa-tools"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--Bootstrap 5 script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!--FONT AWESOME SCRIPT-->
+    <script src="https://kit.fontawesome.com/1ab55fbdcf.js" crossorigin="anonymous"></script>
+
+    <!-- Meu js -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

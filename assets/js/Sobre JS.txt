@@ -1,0 +1,1 @@
+Este projeto foi apenas para HTML e CSS, o codigo JS que está presente foi apenas o básico para fazer o layout ficar como desejado!

@@ -1,0 +1,28 @@
+Projeto Final HTML ADV 
+
+--------Requisitos Mínimos
+--Responsividade personalizada para o layout de celular FEITO
+--identidade visual documentada FEITO
+--uso de variáveis de estilo FEITO
+--elementos de framework (BS,Materialize, etc) FEITO
+--Layout desktop usando templates de framework FEITO
+    --LAYOUT do Home Personalizado FEITO
+    --com blocos de div
+--Galeria de fotos FEITO
+-- 1 formulário FEITO
+
+==============Temas Sugeridos:
+-Loja de Carros:
+    -Deve ser possível ver os carros à venda
+    -enviar mensagem para agendar visita/test drive 
+    -o vendedor pode logar e ver os agendamentos -- LOCAL STORAGE
+
+-Hotel:
+    -Deve ser possível conhecer os quartos e as instalações do Hotel FEITO
+    -o cliente pode fazer uma pré-reserva online FEITO
+    -o funcionário pode ver as pré reservas FEITO
+
+-Centro médico:
+    -Deve ser possível conhecer os quartos e as instalações do Hotel
+    -o cliente pode fazer um agendamento online
+    -o funcionário pode ver os agendamentos
